@@ -12,14 +12,17 @@
     <nav>
         <div>Porsche</div>
         <div class="menu">
-            <div>Информация</div>
-            <div>Католог</div>
-            <div>Цитата</div>
+            <a href="#Info">Информация</a>
+            <a href="#section">Католог</a>
+            <a href="#quote">Цитата</a>
+            <!-- <button >Информация</button> -->
+            <!-- <div>Католог</div> -->
+            <!-- <div>Цитата</div> -->
         </div>
     </nav>
-    <div>
+    <div id="Info">
         <h2>Porsche</h2> 
-        <div class="infomation">
+        <div class="infomation" >
             
             <div id="mainInformatio">
                 <p>Известный немецкий инженер-конструктор Фердинанд Порше 25 апреля 1931 года основал предприятие Dr. Ing. h.c. F. Porsche GmbH,
@@ -35,26 +38,36 @@
                 И далее фирма идет по пути создания автомобилей для дорог общего пользования, но с чертами, присущими спортивным машинам.
                 </p>
             </div>
-            <div id="mainPicture" ></div>
+            <div id="mainPicture" > 
+                <img src="logo.jpg" width="235" height="400">
+            </div>
         </div>
         <div  >
             <h2 id="section">Католог</h2>
             <div id="catalog">
                 <div class="box">
-                    <div class="card" id="cabriolet"></div>
-                    <div>Кабриолет</div>
+                    <div class="card" id="cabriolet">
+                        <img src="cabriolet.jpg" width="150" height="150">
+                    </div>
+                    <div class="description">Кабриолет</div>
                 </div>
                 <div class="box">
-                    <div class="card" id="cayenne"></div>
-                    <div>Семейная</div>
+                    <div class="card" id="cayenne">
+                        <img src="cayenne.jpg" width="150" height="150">
+                    </div>
+                    <div class="description">Семейная</div>
                 </div>
                 <div class="box">
-                    <div class="card" id="sport"></div>
-                    <div>Спортивная</div>
+                    <div class="card" id="sport">
+                        <img src="sport.jpg" width="150" height="150" >
+                    </div>
+                    <div class="description">Спортивная</div>
                 </div>
                 <div class="box">
-                    <div class="card" id="taycan"></div>
-                    <div>Эдектрическая</div>
+                    <div class="card" id="taycan">
+                        <img src="1.jpg" width="150" height="150" >
+                    </div>
+                    <div class="description">Эдектрическая</div>
                 </div>    
             </div>
         </div>
@@ -66,11 +79,11 @@
                 <div>„Все началось с того, что я огляделся по сторонам и, не увидев автомобиля своей мечты, решил сконструировать его сам.“</div>
                 <div id="name"><b>-Фердинанд Порше</b></div>
             </div>
-            <div id="picture"></div>
+            <div id="picture">
+                <img src="ferdinand-porshe.webp" width="300" height="400" >
+            </div>
         </div>
     </div>
-    <!-- <footer>
-
-    </footer> -->
+    <footer>Создатьель SergeyShatilo</footer>
 </body>
 </html>
